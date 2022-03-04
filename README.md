@@ -1,6 +1,7 @@
 ###############################################
 # Run GitHub's Super Linter against code base #
 ###############################################
+
 ---
 name: GitHub's Super Linter
 on: push
