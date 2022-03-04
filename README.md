@@ -1,17 +1,13 @@
 ###############################################
 # Run GitHub's Super Linter against code base #
 ###############################################
-
 ---
 name: GitHub's Super Linter
 on: push
-
 jobs:
   run-linters:
-
     name: GitHub's Super Linter
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out Git repository
         uses: actions/checkout@master
